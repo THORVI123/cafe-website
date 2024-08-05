@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-nav{
+justify-content: center;
+}
+a{
+  font-size: large;
+  font-weight: 700;
+ 
+}
+/* home section */
+.top-banner{
+    width:100%;
+    background: url('../images/bg/bg-1.jpg') no-repeat center;
+    background-size:cover;
+    padding:16.875rem 0 9.375rem;
+  }
+  
+  .main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 25px;
+    background-color: rgb(148, 17, 58);
+    border: 3px solid rgb(148, 17, 58);
+    color: rgb(230, 222, 222);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+   
+  }
+  .main-btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+  }
+  .white-btn {
+    padding: 0.625rem 1.875rem;
+    line-height: 25px;
+    background-color: white;
+    border: 3px  solid ;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+   
+  }
+  .white-btn:hover {
+    background-color: transparent;
+    color:rgb(148, 17, 58) ;
+    border-color: rgb(148, 17, 58) ;
+  }
+  .about-section,
+.menu-section,
+.contact-section {
+    padding: 60px 0;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 7, 7);
+    
+
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.main-card{
+    height:100%;
+    width:100%;
+    padding:25px;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card{
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+h3{
+    font-weight:bolder;
+}
+.book-food{
+    width:100%;
+    background:url('../images/bg/bg-3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:0 71.9125px;
+    padding:4.375rem 0
+  }
+ 
+  
+  
+  /* footer section Design */
+
+
+.footer{
+  background: rgb(148, 17, 58);
+}
+.footer .footer-link{
+  font-size:1rem;
+  color:white;
+  padding:0 1.875rem;
+}
+.footer .footer-link:hover{
+  color:white ;
+}
+.footer a i{
+    text-decoration: none;
+  font-size: 20px;
+  color:white;
+  padding:1px;
+}
